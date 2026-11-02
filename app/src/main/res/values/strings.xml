@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Glass Widgets</string>
+    <string name="widget_clock_desc">Frosted glass digital clock with live date, battery, and weather</string>
+    <string name="widget_weather_desc">Frosted glass weather card with current conditions and forecast</string>
+    <string name="widget_combo_desc">Minimalist frosted glass pill with clock, date, weather, and battery</string>
+    <string name="widget_quotes_desc">Frosted glass daily inspiration and aesthetic quotes</string>
+</resources>

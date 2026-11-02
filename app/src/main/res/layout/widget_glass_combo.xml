@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_combo_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_glass_bg_frosted"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/tv_combo_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10:42"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="24dp"
+        android:background="#33FFFFFF"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_combo_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday, Nov 2"
+            android:textColor="#EEFFFFFF"
+            android:textSize="12sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <TextView
+            android:id="@+id/tv_combo_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="24°C • Mostly Sunny"
+            android:textColor="#B3FFFFFF"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/widget_glass_pill_tag"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_widget_battery"
+            android:contentDescription="Battery" />
+
+        <TextView
+            android:id="@+id/tv_combo_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="88%"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+</LinearLayout>

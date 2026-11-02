@@ -1,0 +1,6 @@
+{
+  "name": "Glass Widgets",
+  "description": "Stunning frosted glass widgets, real-time customizer studio, home screen widgets, and glassmorphism wallpapers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

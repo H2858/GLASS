@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_quotes_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_glass_bg_frosted"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/ic_widget_quote"
+            android:contentDescription="Daily Quote" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:text="Daily Spark"
+            android:textColor="#FF80AB"
+            android:textSize="11sp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_quote_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:text="Simplicity is the keynote of all true elegance."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:id="@+id/tv_quote_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="— Coco Chanel"
+        android:textColor="#B3FFFFFF"
+        android:textSize="11sp"
+        android:gravity="end"
+        android:fontFamily="sans-serif-medium" />
+</LinearLayout>
